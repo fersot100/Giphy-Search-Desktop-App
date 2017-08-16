@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Our Test App</title>
+</head>
+<body>
+	<p>Search for Gifs</p>
+	<input focus="true" id="searchField" type="text">
+	<button id="searchButton">Search</button>
+	<div id="gif-stream"></div>
+	<img id="loadingGif" style="display: none" src="loading.gif">
+	<script type="text/javascript">
+		require('./renderer.js');
+	</script>
+</body>
+</html>
